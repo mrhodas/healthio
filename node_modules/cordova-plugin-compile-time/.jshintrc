@@ -1,0 +1,14 @@
+{
+    "freeze": true,
+    "globals": {
+        "cordova": true,
+    },
+    "latedef": "nofunc",
+    "maxdepth": 3,
+    "newcap": true,
+    "node": true,
+    "noyield": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": true
+}

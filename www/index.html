@@ -1,0 +1,36 @@
+<html>
+
+
+<head>
+    <title>Consumer</title>
+
+</head>
+
+<body>
+    <h1>Spoof Consumer</h1>
+    <div>
+        <form>
+            Patient ID:<br>
+            <input type="text" id="pid"><br>
+            <select id="mySelect" size="8">
+            </select><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div><br>
+    currently following...
+    <h2 id='roomid'>Room</h2>
+    <div style='width=100%'>
+        <!--<ul id="messages-normal" style='border: solid black thick; height:250px'></ul>-->
+        <br>
+        <ul id="messages-alert" style='border: solid black thick;'></ul>
+    </div>
+
+
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src="cordova-2.1.0.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="js/storage/memory-store.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
